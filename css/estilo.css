@@ -11,5 +11,38 @@
         --primary: #D24F04;
         --secondary: #E5E5E5;
         --third: #000000;
-
+    }
+    header {
+        display: flex;
+        border-bottom: 0.5rem solid var(--primary);
+    }
+    header picture img{
+        height: 4rem;
+    }
+    header nav {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    header nav ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+    header nav ul li {
+        margin: 0 1.5rem;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #000000;
+    }
+    main {
+    min-height: 70vh;
+    }
+    footer {
+        background-color: #D24F04;
+        height: 4rem;
+        display: flex;
+        align-items: center;
     }
